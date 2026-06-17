@@ -37,7 +37,14 @@ def generate_complementary_strand(sequence):
 
 def transcribe_dna_to_mrna(sequence):
     sequence = sequence.upper()
-    return sequence.replace('T', 'U')
+    # Define the exact biological mapping from DNA template to mRNA
+    transcription_map = str.maketrans({
+        'A': 'U',
+        'T': 'A',
+        'C': 'G',
+        'G': 'C'
+    })
+    return sequence.translate(transcription_map)
 
 def translate_mrna_to_protein(mrna_sequence):
     mrna_sequence = mrna_sequence.upper()
