@@ -1,5 +1,5 @@
 # Genome-Counter-App
-Markdown
+
 # Advanced Genomics & Bioinformatics Platform 🧬
 
 ## Overview
