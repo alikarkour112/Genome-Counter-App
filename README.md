@@ -28,10 +28,10 @@ Genomics_Platform/
 ├── app.py              # Core application & Web Dashboard
 ├── requirements.txt    # Platform dependencies
 └── README.md           # Documentation (This file)
+
 🛠️ Installation & Deployment
 Prerequisites
 Ensure you have Python 3.11 installed.
-
 Ensure pip is updated to the latest version.
 
 Step 1: Clone the Repository
